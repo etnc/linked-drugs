@@ -41,5 +41,6 @@
 * **description**
 
 ### Notes
+* We use "|" as a delimiter due to the frequent occurance of "," and ";" in the data values.
 * The order of the fields in the CSV is irrelevant.
 * The fields for which you don't have values should remain empty and should not be removed.
