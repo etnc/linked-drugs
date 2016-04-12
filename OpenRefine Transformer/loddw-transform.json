@@ -1,0 +1,1056 @@
+[
+  {
+    "op": "core/recon",
+    "description": "Reconcile cells in column genericName1 to type http://dbpedia.org/ontology/Drug",
+    "columnName": "genericName1",
+    "config": {
+      "mode": "standard-service",
+      "service": "http://data2.fusepool.info:8389/extension/rdf-extension/services/dbpedia",
+      "identifierSpace": "http://www.ietf.org/rfc/rfc3986",
+      "schemaSpace": "http://www.ietf.org/rfc/rfc3986",
+      "type": {
+        "id": "http://dbpedia.org/ontology/Drug",
+        "name": "dbo:Drug"
+      },
+      "autoMatch": true,
+      "columnDetails": [],
+      "limit": 0
+    },
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    }
+  },
+  {
+    "op": "core/recon",
+    "description": "Reconcile cells in column genericName2 to type http://dbpedia.org/ontology/Drug",
+    "columnName": "genericName2",
+    "config": {
+      "mode": "standard-service",
+      "service": "http://data2.fusepool.info:8389/extension/rdf-extension/services/dbpedia",
+      "identifierSpace": "http://www.ietf.org/rfc/rfc3986",
+      "schemaSpace": "http://www.ietf.org/rfc/rfc3986",
+      "type": {
+        "id": "http://dbpedia.org/ontology/Drug",
+        "name": "dbo:Drug"
+      },
+      "autoMatch": true,
+      "columnDetails": [],
+      "limit": 0
+    },
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    }
+  },
+  {
+    "op": "core/recon",
+    "description": "Reconcile cells in column genericName3 to type http://dbpedia.org/ontology/Drug",
+    "columnName": "genericName3",
+    "config": {
+      "mode": "standard-service",
+      "service": "http://data2.fusepool.info:8389/extension/rdf-extension/services/dbpedia",
+      "identifierSpace": "http://www.ietf.org/rfc/rfc3986",
+      "schemaSpace": "http://www.ietf.org/rfc/rfc3986",
+      "type": {
+        "id": "http://dbpedia.org/ontology/Drug",
+        "name": "dbo:Drug"
+      },
+      "autoMatch": true,
+      "columnDetails": [],
+      "limit": 0
+    },
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    }
+  },
+  {
+    "op": "core/recon",
+    "description": "Reconcile cells in column genericName4 to type http://dbpedia.org/ontology/Drug",
+    "columnName": "genericName4",
+    "config": {
+      "mode": "standard-service",
+      "service": "http://data2.fusepool.info:8389/extension/rdf-extension/services/dbpedia",
+      "identifierSpace": "http://www.ietf.org/rfc/rfc3986",
+      "schemaSpace": "http://www.ietf.org/rfc/rfc3986",
+      "type": {
+        "id": "http://dbpedia.org/ontology/Drug",
+        "name": "dbo:Drug"
+      },
+      "autoMatch": true,
+      "columnDetails": [],
+      "limit": 0
+    },
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    }
+  },
+  {
+    "op": "core/recon",
+    "description": "Reconcile cells in column genericName5 to type http://dbpedia.org/ontology/Drug",
+    "columnName": "genericName5",
+    "config": {
+      "mode": "standard-service",
+      "service": "http://data2.fusepool.info:8389/extension/rdf-extension/services/dbpedia",
+      "identifierSpace": "http://www.ietf.org/rfc/rfc3986",
+      "schemaSpace": "http://www.ietf.org/rfc/rfc3986",
+      "type": {
+        "id": "http://dbpedia.org/ontology/Drug",
+        "name": "http://dbpedia.org/ontology/Drug"
+      },
+      "autoMatch": true,
+      "columnDetails": [],
+      "limit": 0
+    },
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    }
+  },
+  {
+    "op": "core/recon",
+    "description": "Reconcile cells in column atcCode to type http://wifo5-04.informatik.uni-mannheim.de/drugbank/resource/drugbank/drugs",
+    "columnName": "atcCode",
+    "config": {
+      "mode": "standard-service",
+      "service": "http://data2.fusepool.info:8389/extension/rdf-extension/services/drugbank-atc-matching",
+      "identifierSpace": "http://www.ietf.org/rfc/rfc3986",
+      "schemaSpace": "http://www.ietf.org/rfc/rfc3986",
+      "type": {
+        "id": "http://wifo5-04.informatik.uni-mannheim.de/drugbank/resource/drugbank/drugs",
+        "name": "http://wifo5-04.informatik.uni-mannheim.de/drugbank/resource/drugbank/drugs"
+      },
+      "autoMatch": true,
+      "columnDetails": [],
+      "limit": 0
+    },
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "linkeddata.finki.ukim.mk/lod/data/loddw#",
+      "prefixes": [
+        {
+          "name": "schema",
+          "uri": "http://schema.org/"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "drugbank",
+          "uri": "http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/"
+        },
+        {
+          "name": "nddf",
+          "uri": "http://purl.bioontology.org/ontology/NDDF/"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "vann",
+          "uri": "http://purl.org/vocab/vann/"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "dcterms",
+          "uri": "http://purl.org/dc/terms/"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "id",
+          "rdfTypes": [
+            {
+              "uri": "http://schema.org/Drug",
+              "curie": "schema:Drug"
+            },
+            {
+              "uri": "http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/drugs",
+              "curie": "drugbank:drugs"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://schema.org/url",
+              "curie": "schema:url",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "url"
+              }
+            },
+            {
+              "uri": "http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/brandName",
+              "curie": "drugbank:brandName",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "brandName"
+              }
+            },
+            {
+              "uri": "http://schema.org/name",
+              "curie": "schema:name",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "brandName"
+              }
+            },
+            {
+              "uri": "http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/genericName",
+              "curie": "drugbank:genericName",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "genericName1"
+              }
+            },
+            {
+              "uri": "http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/genericName",
+              "curie": "drugbank:genericName",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "genericName2"
+              }
+            },
+            {
+              "uri": "http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/genericName",
+              "curie": "drugbank:genericName",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "genericName3"
+              }
+            },
+            {
+              "uri": "http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/genericName",
+              "curie": "drugbank:genericName",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "genericName4"
+              }
+            },
+            {
+              "uri": "http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/genericName",
+              "curie": "drugbank:genericName",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "genericName5"
+              }
+            },
+            {
+              "uri": "http://schema.org/activeIngredient",
+              "curie": "schema:activeIngredient",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "genericName1"
+              }
+            },
+            {
+              "uri": "http://schema.org/activeIngredient",
+              "curie": "schema:activeIngredient",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "genericName2"
+              }
+            },
+            {
+              "uri": "http://schema.org/activeIngredient",
+              "curie": "schema:activeIngredient",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "genericName3"
+              }
+            },
+            {
+              "uri": "http://schema.org/activeIngredient",
+              "curie": "schema:activeIngredient",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "genericName4"
+              }
+            },
+            {
+              "uri": "http://schema.org/activeIngredient",
+              "curie": "schema:activeIngredient",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "genericName5"
+              }
+            },
+            {
+              "uri": "http://schema.org/nonProprietaryName",
+              "curie": "schema:nonProprietaryName",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "genericName1"
+              }
+            },
+            {
+              "uri": "http://schema.org/nonProprietaryName",
+              "curie": "schema:nonProprietaryName",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "genericName2"
+              }
+            },
+            {
+              "uri": "http://schema.org/nonProprietaryName",
+              "curie": "schema:nonProprietaryName",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "genericName3"
+              }
+            },
+            {
+              "uri": "http://schema.org/nonProprietaryName",
+              "curie": "schema:nonProprietaryName",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "genericName4"
+              }
+            },
+            {
+              "uri": "http://schema.org/nonProprietaryName",
+              "curie": "schema:nonProprietaryName",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "genericName5"
+              }
+            },
+            {
+              "uri": "http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/atcCode",
+              "curie": "drugbank:atcCode",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "atcCode"
+              }
+            },
+            {
+              "uri": "http://schema.org/code",
+              "curie": "schema:code",
+              "target": {
+                "nodeType": "cell-as-blank",
+                "isRowNumberCell": false,
+                "columnName": "atcCode",
+                "rdfTypes": [
+                  {
+                    "uri": "http://schema.org/MedicalCode",
+                    "curie": "schema:MedicalCode"
+                  }
+                ],
+                "links": [
+                  {
+                    "uri": "http://schema.org/codeValue",
+                    "curie": "schema:codeValue",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "expression": "value",
+                      "isRowNumberCell": false,
+                      "columnName": "atcCode"
+                    }
+                  },
+                  {
+                    "uri": "http://schema.org/codingSystem",
+                    "curie": "schema:codingSystem",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "expression": "if(isNonBlank(cells[\"atcCode\"].value), \"ATC\", \"\")",
+                      "isRowNumberCell": true
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "uri": "http://schema.org/gtin13",
+              "curie": "schema:gtin13",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "eanCode"
+              }
+            },
+            {
+              "uri": "http://purl.bioontology.org/ontology/NDDF/NDC",
+              "curie": "nddf:NDC",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "ndcCode"
+              }
+            },
+            {
+              "uri": "http://schema.org/code",
+              "curie": "schema:code",
+              "target": {
+                "nodeType": "cell-as-blank",
+                "isRowNumberCell": false,
+                "columnName": "ndcCode",
+                "rdfTypes": [
+                  {
+                    "uri": "http://schema.org/MedicalCode",
+                    "curie": "schema:MedicalCode"
+                  }
+                ],
+                "links": [
+                  {
+                    "uri": "http://schema.org/codeValue",
+                    "curie": "schema:codeValue",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "expression": "value",
+                      "isRowNumberCell": false,
+                      "columnName": "ndcCode"
+                    }
+                  },
+                  {
+                    "uri": "http://schema.org/codingSystem",
+                    "curie": "schema:codingSystem",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "expression": "if(isNonBlank(cells[\"ndcCode\"].value), \"NDC\", \"\")",
+                      "isRowNumberCell": true
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "uri": "http://schema.org/activeIngredient",
+              "curie": "schema:activeIngredient",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "activeSubstance1"
+              }
+            },
+            {
+              "uri": "http://schema.org/activeIngredient",
+              "curie": "schema:activeIngredient",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "activeSubstance2"
+              }
+            },
+            {
+              "uri": "http://schema.org/activeIngredient",
+              "curie": "schema:activeIngredient",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "activeSubstance3"
+              }
+            },
+            {
+              "uri": "http://schema.org/activeIngredient",
+              "curie": "schema:activeIngredient",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "activeSubstance4"
+              }
+            },
+            {
+              "uri": "http://schema.org/activeIngredient",
+              "curie": "schema:activeIngredient",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "activeSubstance5"
+              }
+            },
+            {
+              "uri": "http://schema.org/activeIngredient",
+              "curie": "schema:activeIngredient",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "activeSubstance6"
+              }
+            },
+            {
+              "uri": "http://schema.org/availableStrength",
+              "curie": "schema:availableStrength",
+              "target": {
+                "nodeType": "cell-as-blank",
+                "isRowNumberCell": false,
+                "columnName": "strengthValue1",
+                "rdfTypes": [
+                  {
+                    "uri": "http://schema.org/DrugStrength",
+                    "curie": "schema:DrugStrength"
+                  }
+                ],
+                "links": [
+                  {
+                    "uri": "http://schema.org/strengthValue",
+                    "curie": "schema:strengthValue",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "expression": "value",
+                      "isRowNumberCell": false,
+                      "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                      "columnName": "strengthValue1"
+                    }
+                  },
+                  {
+                    "uri": "http://schema.org/strengthUnit",
+                    "curie": "schema:strengthUnit",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "expression": "value",
+                      "isRowNumberCell": false,
+                      "columnName": "strengthUnit1"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "uri": "http://schema.org/availableStrength",
+              "curie": "schema:availableStrength",
+              "target": {
+                "nodeType": "cell-as-blank",
+                "isRowNumberCell": false,
+                "columnName": "strengthValue2",
+                "rdfTypes": [
+                  {
+                    "uri": "http://schema.org/DrugStrength",
+                    "curie": "schema:DrugStrength"
+                  }
+                ],
+                "links": [
+                  {
+                    "uri": "http://schema.org/strengthValue",
+                    "curie": "schema:strengthValue",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "expression": "value",
+                      "isRowNumberCell": false,
+                      "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                      "columnName": "strengthValue2"
+                    }
+                  },
+                  {
+                    "uri": "http://schema.org/strengthUnit",
+                    "curie": "schema:strengthUnit",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "expression": "value",
+                      "isRowNumberCell": false,
+                      "columnName": "strengthUnit2"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "uri": "http://schema.org/amountOfThisGood",
+              "curie": "schema:amountOfThisGood",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "amount"
+              }
+            },
+            {
+              "uri": "http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/dosageForm",
+              "curie": "drugbank:dosageForm",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "dosageForm"
+              }
+            },
+            {
+              "uri": "http://schema.org/dosageForm",
+              "curie": "schema:dosageForm",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "dosageForm"
+              }
+            },
+            {
+              "uri": "http://schema.org/cost",
+              "curie": "schema:cost",
+              "target": {
+                "nodeType": "cell-as-blank",
+                "isRowNumberCell": false,
+                "columnName": "costPerUnit",
+                "rdfTypes": [
+                  {
+                    "uri": "http://schema.org/DrugCost",
+                    "curie": "schema:DrugCost"
+                  }
+                ],
+                "links": [
+                  {
+                    "uri": "http://schema.org/costPerUnit",
+                    "curie": "schema:costPerUnit",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "expression": "value",
+                      "isRowNumberCell": false,
+                      "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                      "columnName": "costPerUnit"
+                    }
+                  },
+                  {
+                    "uri": "http://schema.org/costCurrency",
+                    "curie": "schema:costCurrency",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "expression": "value",
+                      "isRowNumberCell": false,
+                      "columnName": "costCurrency"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "uri": "http://schema.org/manufacturer",
+              "curie": "schema:manufacturer",
+              "target": {
+                "nodeType": "cell-as-blank",
+                "isRowNumberCell": false,
+                "columnName": "manufacturer1",
+                "rdfTypes": [
+                  {
+                    "uri": "http://schema.org/Organization",
+                    "curie": "schema:Organization"
+                  }
+                ],
+                "links": [
+                  {
+                    "uri": "http://schema.org/legalName",
+                    "curie": "schema:legalName",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "expression": "value",
+                      "isRowNumberCell": false,
+                      "columnName": "manufacturer1"
+                    }
+                  }
+                ]
+              }
+            }, 
+            {
+              "uri": "http://schema.org/manufacturer",
+              "curie": "schema:manufacturer",
+              "target": {
+                "nodeType": "cell-as-blank",
+                "isRowNumberCell": false,
+                "columnName": "manufacturer2",
+                "rdfTypes": [
+                  {
+                    "uri": "http://schema.org/Organization",
+                    "curie": "schema:Organization"
+                  }
+                ],
+                "links": [
+                  {
+                    "uri": "http://schema.org/legalName",
+                    "curie": "schema:legalName",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "expression": "value",
+                      "isRowNumberCell": false,
+                      "columnName": "manufacturer2"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "uri": "http://schema.org/manufacturer",
+              "curie": "schema:manufacturer",
+              "target": {
+                "nodeType": "cell-as-blank",
+                "isRowNumberCell": false,
+                "columnName": "manufacturer3",
+                "rdfTypes": [
+                  {
+                    "uri": "http://schema.org/Organization",
+                    "curie": "schema:Organization"
+                  }
+                ],
+                "links": [
+                  {
+                    "uri": "http://schema.org/legalName",
+                    "curie": "schema:legalName",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "expression": "value",
+                      "isRowNumberCell": false,
+                      "columnName": "manufacturer3"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "uri": "http://schema.org/manufacturer",
+              "curie": "schema:manufacturer",
+              "target": {
+                "nodeType": "cell-as-blank",
+                "isRowNumberCell": false,
+                "columnName": "manufacturer4",
+                "rdfTypes": [
+                  {
+                    "uri": "http://schema.org/Organization",
+                    "curie": "schema:Organization"
+                  }
+                ],
+                "links": [
+                  {
+                    "uri": "http://schema.org/legalName",
+                    "curie": "schema:legalName",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "expression": "value",
+                      "isRowNumberCell": false,
+                      "columnName": "manufacturer4"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "uri": "http://schema.org/manufacturer",
+              "curie": "schema:manufacturer",
+              "target": {
+                "nodeType": "cell-as-blank",
+                "isRowNumberCell": false,
+                "columnName": "manufacturer5",
+                "rdfTypes": [
+                  {
+                    "uri": "http://schema.org/Organization",
+                    "curie": "schema:Organization"
+                  }
+                ],
+                "links": [
+                  {
+                    "uri": "http://schema.org/legalName",
+                    "curie": "schema:legalName",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "expression": "value",
+                      "isRowNumberCell": false,
+                      "columnName": "manufacturer5"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "uri": "http://schema.org/license",
+              "curie": "schema:license",
+              "target": {
+                "nodeType": "cell-as-blank",
+                "isRowNumberCell": false,
+                "columnName": "licenceValidFrom",
+                "rdfTypes": [
+                  {
+                    "uri": "http://schema.org/Permit",
+                    "curie": "schema:Permit"
+                  }
+                ],
+                "links": [
+                  {
+                    "uri": "http://schema.org/licenseID",
+                    "curie": "schema:licenseID",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "expression": "value",
+                      "isRowNumberCell": false,
+                      "columnName": "licenseNumber"
+                    }
+                  },
+                  {
+                    "uri": "http://schema.org/issuedBy",
+                    "curie": "schema:issuedBy",
+                    "target": {
+                      "nodeType": "cell-as-blank",
+                      "isRowNumberCell": false,
+                      "columnName": "licenceIssuedBy",
+                      "rdfTypes": [
+                        {
+                          "uri": "http://schema.org/Organization",
+                          "curie": "schema:Organization"
+                        }
+                      ],
+                      "links": [
+                        {
+                          "uri": "http://schema.org/legalName",
+                          "curie": "schema:legalName",
+                          "target": {
+                            "nodeType": "cell-as-literal",
+                            "expression": "value",
+                            "isRowNumberCell": false,
+                            "columnName": "licenceIssuedBy"
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "uri": "http://schema.org/issuedFor",
+                    "curie": "schema:issuedFor",
+                    "target": {
+                      "nodeType": "cell-as-blank",
+                      "isRowNumberCell": false,
+                      "columnName": "licenceIssuedFor",
+                      "rdfTypes": [
+                        {
+                          "uri": "http://schema.org/Organization",
+                          "curie": "schema:Organization"
+                        }
+                      ],
+                      "links": [
+                        {
+                          "uri": "http://schema.org/legalName",
+                          "curie": "schema:legalName",
+                          "target": {
+                            "nodeType": "cell-as-literal",
+                            "expression": "value",
+                            "isRowNumberCell": false,
+                            "columnName": "licenceIssuedFor"
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "uri": "http://schema.org/validFrom",
+                    "curie": "schema:validFrom",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "expression": "value",
+                      "isRowNumberCell": false,
+                      "valueType": "http://www.w3.org/2001/XMLSchema#date",
+                      "columnName": "licenceValidFrom"
+                    }
+                  },
+                  {
+                    "uri": "http://schema.org/validUntil",
+                    "curie": "schema:validUntil",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "expression": "value",
+                      "isRowNumberCell": false,
+                      "valueType": "http://www.w3.org/2001/XMLSchema#date",
+                      "columnName": "licenceValidUntil"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "uri": "http://schema.org/prescriptionStatus",
+              "curie": "schema:prescriptionStatus",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "if(value==\"OTC\", \"http://schema.org/OTC\", \"http://schema.org/PrescriptionOnly\")",
+                "isRowNumberCell": true,
+                "rdfTypes": [
+                  {
+                    "uri": "http://schema.org/DrugPrescriptionStatus",
+                    "curie": "schema:DrugPrescriptionStatus"
+                  }
+                ],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://schema.org/addressCountry",
+              "curie": "schema:addressCountry",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "country"
+              }
+            },
+            {
+              "uri": "http://schema.org/dateModified",
+              "curie": "schema:dateModified",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#date",
+                "columnName": "dateModified"
+              }
+            },
+            {
+              "uri": "http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/description",
+              "curie": "drugbank:description",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "description"
+              }
+            },
+            {
+              "uri": "http://schema.org/description",
+              "curie": "schema:description",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "description"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+              "curie": "rdfs:seeAlso",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "forEach(cell.recon.candidates,v,v.id)",
+                "isRowNumberCell": false,
+                "columnName": "genericName1",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+              "curie": "rdfs:seeAlso",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "forEach(cell.recon.candidates,v,v.id)",
+                "isRowNumberCell": false,
+                "columnName": "genericName2",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+              "curie": "rdfs:seeAlso",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "forEach(cell.recon.candidates,v,v.id)",
+                "isRowNumberCell": false,
+                "columnName": "genericName3",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+              "curie": "rdfs:seeAlso",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "forEach(cell.recon.candidates,v,v.id)",
+                "isRowNumberCell": false,
+                "columnName": "genericName4",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+              "curie": "rdfs:seeAlso",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "forEach(cell.recon.candidates,v,v.id)",
+                "isRowNumberCell": false,
+                "columnName": "genericName5",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+              "curie": "rdfs:seeAlso",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "forEach(cell.recon.candidates,v,v.id)",
+                "isRowNumberCell": false,
+                "columnName": "atcCode",
+                "rdfTypes": [],
+                "links": []
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+]
