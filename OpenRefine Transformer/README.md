@@ -1,6 +1,6 @@
 # OpenRefine Transformation Script
 
-A JSON file which contains a set of actions to be executed over the source drug data CSV file. The actions can be applied and executed in OpenRefine [1] + the RDF extension, or in LODRefine [2] and BatchRefine [3], which contain the extension by default
+A JSON file which contains a set of actions to be executed over the source drug data CSV file. The actions can be applied and executed in OpenRefine [1] + the RDF extension, or in LODRefine [2] and BatchRefine [3], which contain the extension by default.
 
 It contains three actions:
 
@@ -10,6 +10,6 @@ It contains three actions:
 
 ---
 
-[1] OpenRefine: [http://openrefine.org/](http://openrefine.org/)
-[2] LODRefine: [https://github.com/sparkica/LODRefine](https://github.com/sparkica/LODRefine)
-[3] BatchRefine: [https://github.com/fusepoolP3/p3-batchrefine](https://github.com/fusepoolP3/p3-batchrefine)
+[1]. OpenRefine: [http://openrefine.org/](http://openrefine.org/)
+[2]. LODRefine: [https://github.com/sparkica/LODRefine](https://github.com/sparkica/LODRefine)
+[3]. BatchRefine: [https://github.com/fusepoolP3/p3-batchrefine](https://github.com/fusepoolP3/p3-batchrefine)
