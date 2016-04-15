@@ -7,3 +7,4 @@ A SPARQL query which detects related `schema:Drug` entities from the Linked Drug
 
 	rus:trombopol__22439 schema:relatedDrug mkd:51201 .
 	mkd:51201 schema:relatedDrug rus:trombopol__22439 .
+	
