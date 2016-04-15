@@ -6,7 +6,9 @@ It contains three actions:
 
 * reconcile the columns `genericName1`, `genericName2`, ..., `genericName5` against DBpedia,
 * reconcile the column `atcCode` against the DrugBank dataset, and
-* create an RDF schema skeleton which complies to the predefined RDF schema.
+* create an RDF schema skeleton which complies to the predefined RDF schema (see Figure below).
+
+![Schema](https://raw.githubusercontent.com/mjovanovik/loddw/master/Figures/loddw-schema.png "The schema skeleton for the LODDW project.")
 
 ---
 
