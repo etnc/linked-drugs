@@ -10,6 +10,6 @@ It contains three actions:
 
 ---
 
-[1]. OpenRefine: [http://openrefine.org/](http://openrefine.org/)
-[2]. LODRefine: [https://github.com/sparkica/LODRefine](https://github.com/sparkica/LODRefine)
-[3]. BatchRefine: [https://github.com/fusepoolP3/p3-batchrefine](https://github.com/fusepoolP3/p3-batchrefine)
+[1] OpenRefine: http://openrefine.org/
+[2] LODRefine: https://github.com/sparkica/LODRefine
+[3] BatchRefine: https://github.com/fusepoolP3/p3-batchrefine
