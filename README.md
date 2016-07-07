@@ -23,6 +23,7 @@ Version 2.0 of the dataset, with 248.000+ brand-name drugs from 23 countries, an
 * Russia: http://www.vidal.ru/
 * South African Republic: http://www.mpr.gov.za/
 * Ukraine: http://compendium.com.ua/medical_product/
+
 ##### Drug Registries used in v2.0
 * *all registries from v1.0*
 * Austria: https://aspregister.basg.gv.at/
