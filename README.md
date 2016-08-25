@@ -1,6 +1,6 @@
 # LODDW
 
-A project page for the "Linked Open Drug Data - World" (LODDW) project. The dataset is available via the SPARQL endpoint at http://linkeddata.finki.ukim.mk/sparql.
+A project page for the "Linked Open Drug Data - World" (LODDW) project. The dataset is available via the SPARQL endpoint at http://linkeddata.finki.ukim.mk/sparql. RDF dumps of the dataset, in Turtle format, are available at https://datahub.io/dataset/loddw.
 
 Version 1.0 of the dataset, with 93.000+ brand-name drugs from 7 countries, and 15+ million RDF triples, is available in the named RDF graph \<http://linkeddata.finki.ukim.mk/lod/data/loddw#>.
 
