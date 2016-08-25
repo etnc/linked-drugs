@@ -16,12 +16,12 @@ Version 2.0 of the dataset, with 248.000+ brand-name drugs from 23 countries, an
 
 ### Source National Drug Registries
 ##### Drug Registries used in v1.0
-* Espania: http://www.aemps.gob.es/medicamentosUsoHumano/portada/home.htm
 * Macedonia: https://lekovi.zdravstvo.gov.mk/drugsregister/overview
 * Netherlands: http://www.geneesmiddeleninformatiebank.nl/ords/f?p=111
 * Norway: http://www.legemiddelverket.no/Legemiddelsoek/Sider/default.aspx
 * Russia: http://www.vidal.ru/
 * South African Republic: http://www.mpr.gov.za/
+* Spain: http://www.aemps.gob.es/medicamentosUsoHumano/portada/home.htm
 * Ukraine: http://compendium.com.ua/medical_product/
 
 ##### Drug Registries used in v2.0
