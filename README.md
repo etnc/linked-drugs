@@ -8,11 +8,11 @@ Version 2.1 of the dataset, with 248.000+ brand-name drugs from 23 countries, an
 
 ### Workflow
 
-![Workflow](https://github.com/etnc/linked-drugs/raw/master/Figures/loddw-workflow.png "The workflow in the LinkedDrugs project.")
+![Workflow](https://github.com/etnc/linked-drugs/raw/master/Figures/workflow.png "The workflow in the LinkedDrugs project.")
 
 ### Schema Skeleton for the Data
 
-![Schema](https://github.com/etnc/linked-drugs/raw/master/Figures/loddw-schema.png "The schema skeleton for the LinkedDrugs project.")
+![Schema](https://github.com/etnc/linked-drugs/raw/master/Figures/schema.png "The schema skeleton for the LinkedDrugs project.")
 
 ### Source National Drug Registries
 ##### Drug Registries used in v1.0

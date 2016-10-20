@@ -1,17 +1,17 @@
 # SPARQL query for inserting schema:relatedDrug relations between drugs which have the same ATC code, i.e. share the same therapeutic, pharmacological and chemical properties.
 # Author: Milos Jovanovik (March, 2016)
 #
-# Variable: <http://linkeddata.finki.ukim.mk/lod/data/loddw#>
+# Variable: <http://linkeddata.finki.ukim.mk/lod/data/drugs#>
 # This is the URI of the RDF Graph which holds the Linked Drug Data.
 # It should be changed to the actual RDF Graph URI used in the specific system.
 
 prefix schema: <http://schema.org/>
 prefix drugbank: <http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/>
 
-INSERT INTO <http://linkeddata.finki.ukim.mk/lod/data/loddw#> { ?x schema:relatedDrug ?y . }
+INSERT INTO <http://linkeddata.finki.ukim.mk/lod/data/drugs#> { ?x schema:relatedDrug ?y . }
 WHERE
 {   
-    GRAPH <http://linkeddata.finki.ukim.mk/lod/data/loddw#> 
+    GRAPH <http://linkeddata.finki.ukim.mk/lod/data/drugs#> 
     {
       ?x drugbank:atcCode ?atc .
       ?y drugbank:atcCode ?atc .

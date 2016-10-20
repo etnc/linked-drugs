@@ -1,14 +1,14 @@
 # SPARQL query for inserting missing ATC codes for drugs
 # Author: Milos Jovanovik (June, 2016)
 #
-# Variable: <http://linkeddata.finki.ukim.mk/lod/data/loddw#>
+# Variable: <http://linkeddata.finki.ukim.mk/lod/data/drugs#>
 # This is the URI of the RDF Graph which holds the Linked Drug Data.
 # It should be changed to the actual RDF Graph URI used in the specific system.
 
 prefix drugbank: <http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/>
 prefix dbo: <http://dbpedia.org/ontology/>
 
-INSERT INTO <http://linkeddata.finki.ukim.mk/lod/data/loddw#> { 
+INSERT INTO <http://linkeddata.finki.ukim.mk/lod/data/drugs#> { 
 	?drug drugbank:atcCode ?atcCode ; 
 		  schema:code [ rdf:type schema:MedicalCode ; 
 		  						 schema:codeValue ?atcCode ; 
@@ -16,7 +16,7 @@ INSERT INTO <http://linkeddata.finki.ukim.mk/lod/data/loddw#> {
 		  						 ] 
 	}
 WHERE { 
-   GRAPH <http://linkeddata.finki.ukim.mk/lod/data/loddw#> {
+   GRAPH <http://linkeddata.finki.ukim.mk/lod/data/drugs#> {
       ?drug a schema:Drug ;
             rdfs:seeAlso ?otherDrug .
       FILTER NOT EXISTS { ?drug drugbank:atcCode ?atcCode . }
